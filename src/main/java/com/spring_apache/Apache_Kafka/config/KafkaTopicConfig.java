@@ -12,7 +12,7 @@ public class KafkaTopicConfig {
     public static final String TOPIC_NAME = "my_first_topic";
 
     @Bean
-    public NewTopic topic1() {
+    public NewTopic my_first_topic() {
         return TopicBuilder.name(TOPIC_NAME).build();
     }
 

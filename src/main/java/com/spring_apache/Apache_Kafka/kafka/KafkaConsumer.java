@@ -10,7 +10,7 @@ import com.spring_apache.Apache_Kafka.config.KafkaTopicConfig;
 public class KafkaConsumer {
     private static final Logger log = (Logger) org.slf4j.LoggerFactory.getLogger(KafkaTopicConfig.class);
 
-    @KafkaListener(topics = "my_first_topic", groupId = "group_id")
+    @KafkaListener(topics = "my_first_topic", groupId = "myGroup")
     public void consume(String message) {
         log.info(String.format("#### -> Consumed message -> %s", message));
         System.out.println("Consumed message: " + message);

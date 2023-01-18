@@ -17,7 +17,7 @@ public class msgController {
         this.producer = producer;
     }
     
-    //http:locathost:8080/api/kofka/publish?message=hetto world
+    //  http://localhost:8080/api/v1/kafka/publish?message=wewe
     @GetMapping("/publish")
     public ResponseEntity<String> publishMessage(@RequestParam("message") String message) {
         this.producer.sendMessage(message);
