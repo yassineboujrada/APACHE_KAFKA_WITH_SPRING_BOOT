@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.spring_apache.Apache_Kafka.kafka.KafkaProducer;
 
 @RestController
-@RequestMapping("/api/kafka")
+@RequestMapping("/api/v1/kafka")
 public class msgController {
     private KafkaProducer producer;
 
