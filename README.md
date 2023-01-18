@@ -1,5 +1,12 @@
 # APACHE_KAFKA_WITH_SPRING_BOOT
 
+# Language used
+for this repo we worked by:
+
+![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-000?style=for-the-badge&logo=apachekafka)
+
 # Getting Started
 
 ### Reference Documentation
